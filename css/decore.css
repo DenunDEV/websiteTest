@@ -1,0 +1,55 @@
+body{
+    background-image: url("img\FullWallpaperGIF.gif");
+}
+
+.navbar{
+    background-color: rgb(101, 8, 124);
+    border-radius: 0%;  
+}
+
+
+
+.denun{
+    color:white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Cria 2 colunas de tamanho igual */
+    gap: 80px;
+    padding: 0% 0% 0% 0%;
+    justify-items: center; /* Centraliza os cards nas células da grid */
+    
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-family:monospace;
+    padding: 0 0 0 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    color: rgb(122, 5, 133);
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+}
+
+.projetos{
+    text-align: left;
+}
+
+.card-text{
+    color: whitesmoke;
+}
+
+h4{
+    text-align: center;
+    font-size: normal;
+}
+
+
